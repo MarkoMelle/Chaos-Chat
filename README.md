@@ -1,4 +1,4 @@
-[![Chat](https://github.com/MarkoMelle/Chat/actions/workflows/main.yml/badge.svg)](https://github.com/MarkoMelle/Chat/actions/workflows/main.yml)
+[![chaos-chat](https://github.com/MarkoMelle/Chaos-Chat/actions/workflows/main.yml/badge.svg)](https://github.com/MarkoMelle/Chaos-Chat/actions/workflows/main.yml)
 # Chaos Chat
 
 Приложение предоставляет следующие функции:
