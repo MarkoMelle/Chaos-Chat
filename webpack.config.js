@@ -3,6 +3,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+
 
 module.exports = {
   mode: 'production',
@@ -47,7 +49,7 @@ module.exports = {
             },
           },
         ],
-      },
+      },      
       {
         test: /\.css$/,
         use: [
@@ -81,5 +83,13 @@ module.exports = {
     }),
     new CssMinimizerPlugin(),
     new CleanWebpackPlugin(),
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: 'src/assets/img/favicon',
+          to: 'img/favicon',
+        },
+      ],
+    }),
   ],
 };
