@@ -1,5 +1,5 @@
 [![chaos-chat](https://github.com/MarkoMelle/Chaos-Chat/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/MarkoMelle/Chaos-Chat/actions/workflows/main.yml)
-# Chaos Chat
+[# Chaos Chat](https://markomelle.github.io/Chaos-Chat/)
 
 Приложение предоставляет следующие функции:
 
