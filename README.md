@@ -1,7 +1,7 @@
 [![chaos-chat](https://github.com/MarkoMelle/Chaos-Chat/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/MarkoMelle/Chaos-Chat/actions/workflows/main.yml)
-[# Chaos Chat](https://markomelle.github.io/Chaos-Chat/)
+# Chaos Chat
 
-Приложение предоставляет следующие функции:
+[Приложение](https://markomelle.github.io/Chaos-Chat/) предоставляет следующие функции:
 
 1. **Сохранение в истории ссылок и текстовых сообщений**: Чат сохраняет все отправленные текстовые сообщения и ссылки в истории чата.
 2. **Кликабельные ссылки**: Все ссылки (начинающиеся с http:// или https://) в текстовых сообщениях автоматически становятся кликабельными и отображаются как гиперссылки.
