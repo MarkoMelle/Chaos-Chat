@@ -8,7 +8,7 @@ import SearchController from '../controllers/SearchController';
 import BotController from '../controllers/BotController';
 
 document.addEventListener('DOMContentLoaded', () => {
-  const baseURL = 'http://localhost:3000';
+  const baseURL = 'https://chaos-chat.onrender.com';
   const userApi = new UserApi(baseURL);
   const modal = document.querySelector('.modal');
   const chat = document.querySelector('.chat');
