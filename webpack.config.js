@@ -44,12 +44,21 @@ module.exports = {
                     attribute: 'src',
                     type: 'src',
                   },
+                  {
+                    tag: 'link',
+                    attribute: 'href',
+                    type: 'src',
+                    filter: (tag, attribute, attributes, resourcePath) => {
+                      return attributes.rel === 'icon' || attributes.rel === 'apple-touch-icon' || attributes.rel === 'manifest';
+                    },
+                  },
                 ],
               },
             },
           },
         ],
-      },      
+      },
+           
       {
         test: /\.css$/,
         use: [
@@ -91,5 +100,6 @@ module.exports = {
         },
       ],
     }),
+    
   ],
 };
